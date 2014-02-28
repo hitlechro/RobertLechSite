@@ -1,0 +1,28 @@
+.side-padding {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+img.about-me{
+  float:right;
+  height:343px;
+  width:263px;
+}
+
+#fragment-1{
+  min-height:343px;
+}
+
+#fragment-2{
+  min-height:153px;
+}
+
+#fragment-3{
+  min-height:146px;
+}
+
+p.about-me {
+  position:relative;
+  height: 10px;
+  left: opx;
+}
