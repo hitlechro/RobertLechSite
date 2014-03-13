@@ -1,0 +1,3 @@
+to do:
+DONE - fix small font on phone
+fix the images popping out of div

@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!-- Fixes problem with text appearing too small on phone -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
   <title>Robert Lech</title>
   
   <link rel="stylesheet" href="css/media_icons-fixed.css">
@@ -19,26 +22,26 @@
   
 </head>
 <body>
-  <div data-role="content" class="ui-content side-padding">
+  <div data-role="content" class="ui-content side-padding top-padding">
     <div id="tabs" class="container">
       <ul>
         <li>
-		  <a href="#fragment-1">
-		    <span>
+		  <a href="#fragment-1" class="tab">
+		    <span class="tab">
 			  About Me
 			</span>
 		  </a>
 		</li>
         <li>
-		  <a href="#fragment-2">
-		    <span>
+		  <a href="#fragment-2" class="tab">
+		    <span class="tab">
 			  More Details
 			</span>
 		  </a>
 		</li>
         <li>
-		  <a href="#fragment-3">
-		    <span>
+		  <a href="#fragment-3" class="tab">
+		    <span class="tab">
 			  Contact Me
 			</span>
 		  </a>
@@ -59,16 +62,16 @@
 	  <!-- The 2nd tab will have more details about me -->
       
       <div id="fragment-2">
-        As a mathematician, I've recently enjoyed taking part in competitions. I hope to finish the <a href="https://projecteuler.net/">Project Euler</a> challenge by 2016. I post my solutions on <a href="http://www.google.com/drive/about.html">Google Drive</a>.
+		As a mathematician, I've recently enjoyed taking part in competitions. I hope to finish the <a href="https://projecteuler.net/">Project Euler</a> challenge by 2016. I post my solutions on <a href="http://www.google.com/drive/about.html">Google Drive</a>.
         <br/>
 		<br/>
-		Furthermore, I've developed some applications
+		Furthermore, I've developed some games and applications in the past. I'll upload them to my <a href="https://github.com/">GitHub</a> account in the near future. I'll also be starting some <a href="https://www.youtube.com/">YouTube</a> videos on some topics in mathematics soon.
 
 		<!-- Add a divider -->
 		<hr>
 
         <!-- Social Media Buttons - CSS3 -->
-        <ul class="social" id="css3">
+        <ul class="social social-more-details" id="css3">
           <li class="ProjectEuler">
             <a href="https://projecteuler.net/progress=robert.lech">
               <strong>
@@ -83,6 +86,20 @@
               </strong>
             </a>
           </li>
+          <li class="GitHub">
+            <a href="https://github.com/hitlechro/">
+              <strong>
+                GitHub
+              </strong>
+            </a>
+          </li>
+          <li class="YouTube">
+            <a href="https://www.youtube.com/channel/UCoHpHqfPe-eusONnvkP1OuA">
+              <strong>
+                YouTube
+              </strong>
+            </a>
+          </li>
         </ul>
         <!-- /Social Media Buttons - CSS3 -->
       </div>
@@ -92,7 +109,6 @@
       <div id="fragment-3">
         <p class="contactText">
           To learn more about me, please visit my LinkedIn account.
-          <br/>
           If you wish to contact me, please feel free to do so by email at <a href="mailto:robert.lech@mail.utoronto.ca" target="_blank" title="Email">robert.lech@mail.utoronto.ca</a>.
         </p>
         
@@ -100,7 +116,7 @@
 		<hr>
 		
         <!-- Social Media Buttons - CSS3 -->
-        <ul class="social" id="css3">
+        <ul class="social social-contact-me" id="css3">
           <li class="email">
             <a href="mailto:robert.lech@mail.utoronto.ca" target="_blank" title="Email">
               <strong>
@@ -117,7 +133,6 @@
           </li>
         </ul>
         <!-- /Social Media Buttons - CSS3 -->
-		
       </div>
     </div>
   </div> 

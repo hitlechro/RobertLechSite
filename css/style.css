@@ -1,3 +1,15 @@
+span.tab {
+	font-size: 100%;
+}
+
+a.tab {
+	padding: .5em 1em;
+}
+
+.top-padding {
+	padding-top: 2em;
+}
+
 .side-padding {
   padding-left:0px;
   padding-right:0px;
@@ -7,6 +19,8 @@ img.about-me{
   float:right;
   height:343px;
   width:263px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 #fragment-1{
@@ -14,7 +28,7 @@ img.about-me{
 }
 
 #fragment-2{
-  min-height:153px;
+  min-height:170px;
 }
 
 #fragment-3{
