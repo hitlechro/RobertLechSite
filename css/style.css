@@ -16,23 +16,16 @@ a.tab {
 }
 
 img.about-me{
-  float:right;
   height:343px;
   width:263px;
   padding-left: 20px;
   padding-bottom: 20px;
+  display: block;
+  margin: auto;
 }
 
 #fragment-1{
   min-height:343px;
-}
-
-#fragment-2{
-  min-height:170px;
-}
-
-#fragment-3{
-  min-height:146px;
 }
 
 p.about-me {

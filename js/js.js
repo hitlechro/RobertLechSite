@@ -9,8 +9,8 @@ jQuery(document).ready(function ($) {
 		$('.side-padding').css("padding-right", padding_required.toString()+"px");
 		$('.top-padding').css("padding-top", "2em");
 		$('span.tab').css("font-size", "100%");
-		$('a.tab').css("padding", ".5em 0.75em");
 		$('a.tab').css("padding", ".5em 1em");
+		$('img.about-me').css("float", "right");
 	}
 	else if ($(window).width() > 640) {
 		$('.side-padding').css("padding-left", "25px");
@@ -18,6 +18,7 @@ jQuery(document).ready(function ($) {
 		$('.top-padding').css("padding-top", "2em");
 		$('span.tab').css("font-size", "100%");
 		$('a.tab').css("padding", ".5em 1em");
+		$('img.about-me').css("float", "right");
 	}
 	else if ($(window).width() < 640) {
 		$('.side-padding').css("padding-left", "0px");

@@ -1,3 +1,8 @@
-to do:
-DONE - fix small font on phone
+DONE:
+fix small font on phone
 fix the images popping out of div
+fix the profile picture so that it's position on top of the text on mobile
+
+TODO:
+fix the "deprecated method" warning
+-- Involves updating my jquery files to 1.11 probably
