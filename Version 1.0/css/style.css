@@ -1,0 +1,35 @@
+span.tab {
+	font-size: 100%;
+}
+
+a.tab {
+	padding: .5em 1em;
+}
+
+.top-padding {
+	padding-top: 2em;
+}
+
+.side-padding {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+img.about-me{
+  height:343px;
+  width:263px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: block;
+  margin: auto;
+}
+
+#fragment-1{
+  min-height:343px;
+}
+
+p.about-me {
+  position:relative;
+  height: 10px;
+  left: opx;
+}
