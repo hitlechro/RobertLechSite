@@ -1,154 +1,140 @@
 <!DOCTYPE HTML>
-<!--
-	Prism by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Robert Lech</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="assets/css/rl.css" />
-		<link rel="stylesheet" href="assets/css/rl-form.css" />
-		<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Fixes problem with text appearing too small on phone -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+  <title>Robert Lech</title>
+  
+  <link rel="stylesheet" href="css/media_icons-fixed.css">
+  <link rel="stylesheet" href="css/jquery-ui-1.10.4.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.1.min.css"> 
+  <!-- Load JQM after JUI -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="js/jquery-1.10.2.js"></script>
+  <!-- Load JUI after JQuery -->
+  <script src="js/jquery-ui-1.10.4.min.js"></script>
+  <!-- Load JQM after JUI -->
+  <script src="js/jquery.mobile-1.4.1.min.js"></script>
+  <script src="js/js.js"></script>
+  
+</head>
+<body>
+  <div data-role="content" class="ui-content side-padding top-padding">
+    <div id="tabs" class="container">
+      <ul>
+        <li>
+		  <a href="#fragment-1" class="tab">
+		    <span class="tab">
+			  About Me
+			</span>
+		  </a>
+		</li>
+        <li>
+		  <a href="#fragment-2" class="tab">
+		    <span class="tab">
+			  More Details
+			</span>
+		  </a>
+		</li>
+        <li>
+		  <a href="#fragment-3" class="tab">
+		    <span class="tab">
+			  Contact Me
+			</span>
+		  </a>
+		</li>
+      </ul>
+	  
+	  <!-- The 1st tab will contain an overview of my life -->
+      
+      <div id="fragment-1">
+	    <img src="images/tab1/me.png" class="about-me">
+        <p>
+          I recently graduated from the University of Toronto with a degree in Computer Science and Mathematics. I'm currently doing research in Mathematics at the University of Toronto. 
+          <br/></br/>
+          On my spare time I enjoy playing piano and solving casual math problems. As a software developer, I'll play video games to appreciate and admire the graphics component. Finally, to maintain my fitness, I like to dance, both hip-hop and ballroom, and lift weights.
+        </p>
+      </div>
+	  
+	  <!-- The 2nd tab will have more details about me -->
+      
+      <div id="fragment-2">
+		As a mathematician, I've recently enjoyed taking part in competitions. I hope to finish the <a href="https://projecteuler.net/">Project Euler</a> challenge by 2016. I post my solutions on <a href="http://www.google.com/drive/about.html">Google Drive</a>.
+        <br/>
+		<br/>
+		Furthermore, I've developed some games and applications in the past. I'll upload them to my <a href="https://github.com/">GitHub</a> account in the near future. I'll also be starting some <a href="https://www.youtube.com/">YouTube</a> videos on some topics in mathematics soon.
 
-		<!-- Banner -->
-		<section id="banner">
-		    <div class="bubble">
-		        <h2 class="name">Robert Lech</h2>
-	        </div>
-		</section>
+		<!-- Add a divider -->
+		<hr>
 
-		<!-- One -->
-		<section id="one" class="wrapper">
-			<div class="inner split">
-				<section>
-					<h2>About Me</h2>
-					<p>
-					    Currently I'm happily employed at Index Exchange as a software engineer with a large passion for devops toolsets. 
-					</p>
-				</section>
-				<section>
-					<ul class="checklist vertically-centered">
-						<li>Ipsum nisl sed cursus magna</li>
-						<li>Amet veroeros sed aliquam consequat</li>
-						<li>Tempus lorem adipiscing et lorem</li>
-						<li>Morbi pharetra vitae felis placerat</li>
-						<li>Pharetra nulla risus orci dapibus</li>
-					</ul>
-				</section>
-			</div>
-		</section>
-
-		<!-- Two -->
-		<section id="two" class="wrapper style2 alt">
-			<div class="inner">
-				<div id="rl-software" class="spotlight">
-					<div class="content">
-						<h3>
-						    Software Developer
-						</h3>
-						<p>
-							I like coding. Check out my GitHub, Leetcode, and Project Euler profiles for more examples! 
-						</p>
-						<div class="social">
-						    <a href="https://github.com/robert-7">
-						    	<img class="social-img social-img-left grow" src="assets\css\images\icons\github-icon.png">
-						    </a>
-						    <a href="https://github.com/robert-7">
-						    	<img class="social-img grow" src="assets\css\images\icons\leetcode-icon.png">
-						    </a>
-						    <a href="https://projecteuler.net/progress=robert.lech">
-						    	<img class="social-img social-img-right grow" src="assets\css\images\icons\project-euler-icon.bmp">
-						    </a>
-						</div>
-					</div>
-					<div class="image">
-						<img src="images/pic02_but_better.gif" alt="" />
-					</div>
-				</div>
-				<div id="rl-math" class="spotlight">
-					<div class="image">
-						<img src="images/pic01.jpg" alt="" />
-					</div>
-					<div class="content">
-						<h3>Mathematician</h3>
-						<p>I graduated from Carleton University with a masters in Applied Mathematics stream. My research focuses on "recursions", functions whose output depends on preceding terms in a given sequence, and how we can visually understand them and their complex structures. From this research, we see the creation of many interestingly and recursively defined trees -- like the one in the picture. See if you can guess its recursive pattern :)
-					</div>
-				</div>
-				<div id="rl-hobbies" class="spotlight">
-					<div class="content">
-						<h3>Hobbies</h3>
-						<p>I like to play piano and learn languages. You can follow me on my Duolingo account by clicking on the big, green owl below! Also, I've gotten into board games lately. Feel free to check out my BoardGameGeek profile!</p>
-						<div class="social">
-						    <a href="https://www.duolingo.com/RobertLech3">
-						    	<img class="social-img social-img-left grow" src="assets\css\images\icons\duolingo-icon.png">
-						    </a>
-						    <a href="https://boardgamegeek.com/collection/user/48cg89tw">
-						    	<img class="social-img social-img-right grow" src="assets\css\images\icons\boardgame-geek-icon.png">
-						    </a>
-						</div>
-					</div>
-					<div class="image">
-						<img src="images/pic03.jpg" alt="" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Contact -->
-		<section id="contact" class="wrapper">
-			<div class="inner split">
-				<section>
-					<h2>Contact Me (coming soon)</h2>
-					<form action="#" class="alt" method="POST">
-						<div class="row uniform">
-							<div class="6u 12u$(xsmall)">
-								<input name="name" placeholder="Name" type="text">
-							</div>
-							<div class="6u$ 12u$(xsmall)">
-								<input name="email" placeholder="Email" type="email">
-							</div>
-							<div class="12u$">
-								<textarea name="message" placeholder="Message" rows="4"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input class="alt" value="Send message" type="submit"></li>
-						</ul>
-					</form>
-				</section>
-				<section>
-					<ul class="contact vertically-centered">
-						<li class="fa-linkedin fa-lg more-vertical-space"><a href="https://www.linkedin.com/in/robertlech">linkedin.com/in/robertlech</a></li>
-						<li class="fa-github fa-lg more-vertical-space"><a href="https://github.com/robert-7">github.com/robert-7</a></li>
-						<li class="fa-home fa-lg more-vertical-space"><a href="https://goo.gl/maps/fJ5KSo1uLoF2">Mississauga, ON</a></li>
-					</ul>
-				</section>
-			</div>
-		</section>
-
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="copyright">
-				Design: <a href="http://templated.co">TEMPLATED</a>.
-			</div>
-		</footer>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
-		<script src="assets/js/rl.js"></script>
-
-	</body>
+        <!-- Social Media Buttons - CSS3 -->
+        <ul class="social social-more-details" id="css3" style=" height: 35px;">
+          <li class="ProjectEuler">
+            <a href="https://projecteuler.net/progress=robert.lech">
+              <strong>
+                Project Euler
+              </strong>
+            </a>
+          </li>
+          <li class="GoogleDrive">
+            <a href="https://drive.google.com/#folders/0B0P3pd0q258AeVlSMUx6RURfcFk">
+              <strong>
+                Google Drive
+              </strong>
+            </a>
+          </li>
+          <li class="GitHub">
+            <a href="https://github.com/hitlechro/">
+              <strong>
+                GitHub
+              </strong>
+            </a>
+          </li>
+          <li class="YouTube">
+            <a href="https://www.youtube.com/channel/UCoHpHqfPe-eusONnvkP1OuA">
+              <strong>
+                YouTube
+              </strong>
+            </a>
+          </li>
+        </ul>
+        <!-- /Social Media Buttons - CSS3 -->
+      </div>
+	  
+	  <!-- The 3rd tab will have my contact info -->
+	  
+      <div id="fragment-3">
+        <p class="contactText">
+          To learn more about me, please visit my LinkedIn account.
+          If you wish to contact me, please feel free to do so by email at <a href="mailto:robert.lech@mail.utoronto.ca" target="_blank" title="Email">robert.lech@mail.utoronto.ca</a>.
+        </p>
+        
+		<!-- Add a divider -->
+		<hr>
+		
+        <!-- Social Media Buttons - CSS3 -->
+        <ul class="social social-contact-me" id="css3" style=" height: 35px;">
+          <li class="email">
+            <a href="mailto:robert.lech@mail.utoronto.ca" target="_blank" title="Email">
+              <strong>
+                email
+              </strong>
+            </a>
+          </li>
+          <li class="LinkedIn">
+            <a href="http://www.linkedin.com/in/robertlech">
+              <strong>
+                LinkedIn
+              </strong>
+            </a>
+          </li>
+        </ul>
+        <!-- /Social Media Buttons - CSS3 -->
+      </div>
+    </div>
+  </div> 
+</body>
 </html>
