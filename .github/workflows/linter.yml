@@ -1,0 +1,16 @@
+name: lint
+
+on:
+  pull_request:
+    branches: [ gh-pages ] # gh-pages branches is my default branch
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Markdown Linting Action
+        uses: avto-dev/markdown-lint@v1
+        with:
+          args: './README.md'
