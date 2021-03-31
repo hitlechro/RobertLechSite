@@ -1,0 +1,26 @@
+{
+  "name": "robert-lech-site",
+  "version": "3.0.0",
+  "description": "Robert Lech personal site",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-7/RobertLechSite.git"
+  },
+  "keywords": [
+    "personal-site"
+  ],
+  "author": "Robert Lech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robert-7/RobertLechSite/issues"
+  },
+  "homepage": "https://github.com/robert-7/RobertLechSite#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "prettier": "2.2.1"
+  }
+}
