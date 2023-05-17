@@ -1,8 +1,9 @@
+---
 name: lint
 
 on:
   pull_request:
-    branches: [ gh-pages ] # gh-pages branches is my default branch
+    branches: [gh-pages]  # gh-pages branches is my default branch
 
 jobs:
 
